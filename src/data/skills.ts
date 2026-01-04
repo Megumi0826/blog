@@ -260,8 +260,7 @@ export const skillsData: Skill[] = [
 	{
 		id: "intellij",
 		name: "IntelliJ IDEA",
-		description:
-			"JetBrains flagship IDE, the preferred tool for Java development with powerful intelligent coding assistance.",
+		description: "不好用",
 		icon: "logos:intellij-idea",
 		category: "tools",
 		level: "beginner",

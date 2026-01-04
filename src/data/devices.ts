@@ -16,13 +16,12 @@ export type DeviceCategory = {
 };
 
 export const devicesData: DeviceCategory = {
-	OnePlus: [
+	Phone: [
 		{
-			name: "OnePlus 13T",
+			name: "Nothing Phone (2)",
 			image: "/images/device/oneplus13t.png",
-			specs: "Gray / 16G + 1TB",
-			description:
-				"Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
+			specs: "Grey / 12G + 256G",
+			description: "会发光",
 			link: "https://www.oneplus.com/cn/13t",
 		},
 	],
@@ -31,6 +30,16 @@ export const devicesData: DeviceCategory = {
 			name: "GL-MT3000",
 			image: "/images/device/mt3000.png",
 			specs: "1000Mbps / 2.5G",
+			description:
+				"Portable WiFi 6 router suitable for business trips and home use.",
+			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+		},
+	],
+	辣椒酱: [
+		{
+			name: "阿四辣椒酱",
+			image: "/images/device/mt3000.png",
+			specs: "500g",
 			description:
 				"Portable WiFi 6 router suitable for business trips and home use.",
 			link: "https://www.gl-inet.cn/products/gl-mt3000/",

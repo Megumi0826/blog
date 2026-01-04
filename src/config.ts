@@ -57,12 +57,12 @@ export const siteConfig: SiteConfig = {
 	},
 
 	bangumi: {
-		userId: "your-bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
-		fetchOnDev: false, // 是否在开发环境下获取 Bangumi 数据（默认 false），获取前先执行 pnpm build 构建 json 文件
+		userId: "1195428", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		fetchOnDev: true, // 是否在开发环境下获取 Bangumi 数据（默认 false），获取前先执行 pnpm build 构建 json 文件
 	},
 
 	anime: {
-		mode: "local", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置
+		mode: "bangumi", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置
 	},
 
 	// 文章列表布局配置
@@ -247,7 +247,7 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/Megumi0826",
 					external: true,
 					icon: "fa6-brands:github",
 				},
@@ -352,7 +352,7 @@ export const profileConfig: ProfileConfig = {
 };
 
 export const licenseConfig: LicenseConfig = {
-	enable: true,
+	enable: false,
 	name: "CC BY-NC-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 };
@@ -426,7 +426,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 };
 
 export const footerConfig: FooterConfig = {
-	enable: false, // 是否启用Footer HTML注入功能
+	enable: true, // 是否启用Footer HTML注入功能
 	customHtml: "", // HTML格式的自定义页脚信息，例如备案号等，默认留空
 	// 也可以直接编辑 FooterConfig.html 文件来添加备案号等自定义内容
 	// 注意：若 customHtml 不为空，则使用 customHtml 中的内容；若 customHtml 留空，则使用 FooterConfig.html 文件中的内容
