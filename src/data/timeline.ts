@@ -26,9 +26,23 @@ export interface TimelineItem {
 export const timelineData: TimelineItem[] = [
 	{
 		id: "First Programming Experience",
+		title: "大三",
+		description: "学习中...",
+		type: "education",
+		startDate: "2025-09-01",
+		skills: ["TypeScript", "React"],
+		achievements: [
+			'Completed first "Hello World" program',
+			"Learned basic loops and conditional statements",
+			"Developed interest in programming",
+		],
+		icon: "iconoir:learning",
+		color: "#8ac1ff",
+	},
+	{
+		id: "First Programming Experience",
 		title: "第一次编程",
-		description:
-			"在高中时接触编程，写下了人生中的第一个'Hello World'程序，开启了对编程的兴趣。",
+		description: "在高中时接触编程，写下了第一个'Hello World'。",
 		type: "education",
 		startDate: "2019-03-01",
 		skills: ["C", "Basic Programming Concepts"],

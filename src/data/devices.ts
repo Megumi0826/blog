@@ -16,33 +16,37 @@ export type DeviceCategory = {
 };
 
 export const devicesData: DeviceCategory = {
-	Phone: [
+	电子设备: [
 		{
 			name: "Nothing Phone (2)",
-			image: "/images/device/oneplus13t.png",
+			image: "/images/device/nothing.jpg",
 			specs: "Grey / 12G + 256G",
 			description: "会发光",
-			link: "https://www.oneplus.com/cn/13t",
+			link: "https://nothingcn.com/pages/phone-2",
 		},
-	],
-	Router: [
 		{
-			name: "GL-MT3000",
-			image: "/images/device/mt3000.png",
-			specs: "1000Mbps / 2.5G",
-			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+			name: "HyperX Alloy Origins",
+			image: "/images/device/hyperx.webp",
+			specs: "Red / 104 keys",
+			description: "音游利器",
+			link: "https://row.hyperx.com/zh-hans/products/hyperx-alloy-origins-mechanical-gaming-keyboard",
+		},
+		{
+			name: "雷霆80",
+			image: "/images/device/Racket.jpg",
+			specs: "4U / G5",
+			description: "Classical",
+			link: "https://www.badmintoncn.com/cbo_eq/view.php?eid=9748",
 		},
 	],
-	辣椒酱: [
+	SP: [
 		{
 			name: "阿四辣椒酱",
-			image: "/images/device/mt3000.png",
-			specs: "500g",
+			image: "/images/device/lajiao.jpg",
+			specs: "400g",
 			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+				"amazing spicy sauce made by MeiZhou",
+			link: "https://www.taobao.com/list/item/dUdTMmZwUkxrcVJIUmpDNmxDT0FKZz09.htm?spm=a21wu.10013406.taglist-content.1.266f28979yVrpO",
 		},
 	],
 };

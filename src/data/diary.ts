@@ -15,9 +15,8 @@ export interface DiaryItem {
 const diaryData: DiaryItem[] = [
 	{
 		id: 1,
-		content: "这是我的第一篇日记...",
+		content: "破服务器，破宝塔面板",
 		date: "2026-01-01T10:30:00Z",
-		images: ["/images/diary/sakura.jpg", "/images/diary/1.jpg"],
 	},
 ];
 
